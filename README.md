@@ -1,14 +1,19 @@
 # Air quality
 
-<!-- GETTING STARTED -->
+### Built With
+
+* [AdonisJS](https://adonisjs.com/)
+* [NodeJS](https://nodejs.org)
 
 ### Installation
 
 1. Install NPM packages
+
    ```sh
    npm install
    ```
 2. file `.env` content
+
    ```yml
     PORT=3333
     HOST=0.0.0.0
@@ -23,18 +28,22 @@
     MYSQL_DB_NAME=airquality
    ```
 3. Start server
+
    ```sh
    node ace serve --watch
    ```
 4. Run migration
+
    ```sh
    node ace migration:run
    ```
 5. Run the sheduler (CRON)
+
    ```sh
    node ace scheduler:run
    ```
 6. Run the test
+
    ```sh
    node ace test
    ```
@@ -81,3 +90,7 @@ Swagger UI : [http://localhost:3333/docs](http://localhost:3333/docs)
 
 
 Swagger OpenApi : [http://localhost:3333/swagger](http://localhost:3333/swagger)
+
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
