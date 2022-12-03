@@ -5,12 +5,10 @@ test.group('Checkairquality', () => {
   test('Test api getAirQuality', async ({ client }) => {
     const response = await client.get('/api/getAirQualityn?lat=48.856613&lon=2.352222')
     response.assertStatus(200)
-    //response.assertBodyContains({ hello: 'world' })
   })
   test('Test api getMostPollutedTime', async ({ client }) => {
     const response = await client.get('/api/getMostPollutedTime')
 
     response.assertStatus(200)
-    //response.assertBodyContains({ hello: 'world' })
   })
 })
